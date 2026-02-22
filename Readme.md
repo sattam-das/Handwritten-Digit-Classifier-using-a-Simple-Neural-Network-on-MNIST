@@ -275,25 +275,6 @@ The categorical crossentropy loss function is optimal for multi-class classifica
 
 ---
 
-## 📁 Project Structure
-
-```
-mnist-digit-classifier/
-│
-├── digit_classifier_model.ipynb    # Main project notebook
-├── README.md                        # Project documentation
-├── requirements.txt                 # Python dependencies
-├── LICENSE                          # MIT License
-├── .gitignore                       # Git ignore rules
-│
-└── assets/                          # (Optional) Images for README
-    ├── confusion_matrix.png
-    ├── training_curves.png
-    └── sample_predictions.png
-```
-
----
-
 ## 🔬 Methodology
 
 ### Data Preprocessing
@@ -326,60 +307,6 @@ The evaluation calculated overall accuracy and loss on the test set, per-digit p
 - Apply Transfer Learning by fine-tuning on Fashion-MNIST or other handwriting datasets
 - Implement Ensemble Methods by combining multiple models for improved accuracy
 - Perform Hyperparameter Tuning using grid search for optimal layer sizes, dropout rates, and learning rates
-
-### Deployment
-
-- Build REST API using Flask or FastAPI endpoint for real-time predictions
-- Create Web Interface using interactive Streamlit or Gradio demo
-- Deploy Mobile App using TensorFlow Lite for on-device inference
-- Package with Docker Container for easy deployment anywhere
-
-### Optimization
-
-- Apply Model Compression through pruning to reduce model size by 50 percent or more
-- Implement Quantization by converting to INT8 for faster inference on edge devices
-- Enable ONNX Export for cross-platform deployment
-
----
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome.
-
-### How to Contribute
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### Contribution Guidelines
-
-- Follow PEP 8 style guidelines for Python code
-- Add docstrings to all functions
-- Include unit tests for new features
-- Update README with any new functionality
-- Ensure all tests pass before submitting PR
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
-## 👤 Contact
-
-**Your Name**
-
-- LinkedIn: [Your Name](https://linkedin.com/in/yourprofile)
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
-- Portfolio: [yourwebsite.com](https://yourwebsite.com)
-
-**Project Link:** [https://github.com/yourusername/mnist-digit-classifier](https://github.com/yourusername/mnist-digit-classifier)
 
 ---
 
