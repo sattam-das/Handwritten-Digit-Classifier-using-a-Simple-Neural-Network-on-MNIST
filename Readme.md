@@ -63,7 +63,7 @@ I had loaded the dataset using Keras, but I had this array of numbers and no ide
 
 Andrew's course mentioned normalization, but I didn't fully understand _why_ I was dividing pixel values by 255.
 
-I knew pixel values ranged from 0-255 (grayscale), but why divide by that specific number? Through searching and asking questions, I learned it was about scaling the inputs to [0, 1] so gradient descent could converge faster. That took time to sink in.
+I knew pixel values ranged from 0-256 (grayscale), but why divide by that specific number? Through searching and asking questions, I learned it was about scaling the inputs to [0, 1] so gradient descent could converge faster. That took time to sink in.
 
 ### Obstacle #3: "My data is 28×28, but Dense layers want 1D input?"
 
